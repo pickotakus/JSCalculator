@@ -1,0 +1,48 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+.button
+{
+	width:50;
+	height:50;
+	font-size:25;
+	margin:2;
+	cursor:pointer;
+	background:lemonchiffon;
+	border:none;
+	color:darkred;
+}
+.button_wide
+{
+	width:105;
+	height:50;
+	font-size:25;
+	margin:2;
+	cursor:pointer;
+	background:lemonchiffon;
+	border:none;
+	color:darkred;	
+}
+.textview
+{
+	width:217;
+	margin:5;
+	font-size:25;
+	padding:5;
+	color:darkred;	
+}
+.main
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translateX(-50%) translateY(-50%);
+}
+.page_background
+{
+	background:linear-gradient(to right,red,salmon);
+	height:100%;
+
+}
